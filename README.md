@@ -1,8 +1,12 @@
 # Data-science-Mini-Project
-Sales Data Analysis and Prediction
-Project Overview
+**Sales Data Analysis and Prediction**
+
+**Project Overview**
+
 This project is a data science mini-project that analyzes a sales dataset to uncover insights through exploratory data analysis (EDA) and predictive modeling. The analysis is performed in a Google Colab notebook using Python, leveraging libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn. The project includes data cleaning, visualization of sales trends, and a linear regression model to predict sales.
-Dataset
+
+**Dataset**
+
 The dataset (train.csv) contains sales records with the following key columns:
 
 Row ID: Unique identifier for each record
@@ -16,13 +20,13 @@ Country/City/State/Postal Code/Region: Geographical details
 Product ID/Category/Sub-Category/Product Name: Product details
 Sales: Sales amount
 
-Objectives
+**Objectives**
 
 Perform exploratory data analysis to identify trends and patterns in sales data.
 Visualize relationships between variables such as category, region, and sales.
 Build and evaluate a linear regression model to predict sales based on selected features.
 
-Tools and Libraries
+**Tools and Libraries**
 
 Python: Core programming language
 Pandas: Data manipulation and analysis
@@ -31,15 +35,15 @@ Matplotlib/Seaborn: Data visualization
 Scikit-learn: Machine learning (linear regression, model evaluation)
 Google Colab: Environment for running the notebook
 
-Project Structure
+**Project Structure**
 
 DSc_MiniProject.ipynb: Google Colab notebook containing the full analysis and code
+
 train.csv: https://www.kaggle.com/discussions/general/182647
+
 README.md: This file
 
-How to Run
-
-Clone the Repository:git clone https://github.com/your-username/your-repo-name.git
+**How to Run**
 
 
 Open in Google Colab:
@@ -57,8 +61,7 @@ Run the Notebook:
 Execute the cells in the notebook sequentially to perform data loading, EDA, visualization, and modeling.
 
 
-
-Key Steps in the Notebook
+**Key Steps in the Notebook**
 
 Data Loading: Load the train.csv dataset using Pandas.
 Exploratory Data Analysis:
@@ -84,22 +87,22 @@ Highlight key insights about sales drivers.
 
 
 
-Results
+**Results**
 
 EDA Insights: Identified top-selling categories, regional sales variations, and customer segment preferences.
 Visualizations: Generated plots to showcase sales trends and correlations.
 Model Performance: The linear regression model provides a baseline for sales prediction, with MSE and R² scores indicating model fit.
 
-Future Improvements
+**Future Improvements**
 
 Incorporate additional features (e.g., time-based features from order dates).
 Experiment with advanced models like Random Forest or Gradient Boosting.
 Enhance visualizations with interactive plots using Plotly.
 Address any data quality issues (e.g., outliers, missing values) for improved model accuracy.
 
-License
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 Contact
 For questions or feedback, feel free to reach out via GitHub Issues or connect with me on LinkedIn.
 
-Happy analyzing! 🚀
+**Happy analyzing! 🚀**
